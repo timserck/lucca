@@ -9,7 +9,7 @@ module.exports = {
     entry : './src/app.js',
     watch: dev,
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'src/build'),
         publicPath: '/',
         filename: 'bundle.js',
         chunkFilename: 'chunk.js'

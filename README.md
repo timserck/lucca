@@ -31,6 +31,8 @@ NB: for each scss files i put link to article if you want more explenation
 /src/index.html\
 /src/main.scss\
 /src/bundle.css (scss bundled)\
+/src/build\
+src/build/bundle.js
 /src/assets/\
 /src/assets/favicon\
 /src/scripts/symbols.js (creation of symbols svg)\
@@ -47,8 +49,7 @@ NB: for each scss files i put link to article if you want more explenation
 
 (nodes_modules)
 
-/build\
-/build/bundle.js
+
 
 
 # Tasks to improve

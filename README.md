@@ -36,13 +36,13 @@ src/build/bundle.js\
 /src/assets/\
 /src/assets/favicon\
 /src/scripts/symbols.js (creation of symbols svg)\
-/src/styles/_accesibility.scss/\
-/src/styles/_chatbox.scss/\
-/src/styles/_colors.scss/\
-/src/styles/_layout.scss/\
-/src/styles/_mixins.scss/\
-/src/styles/_reset.scss/\
-/src/styles/_typos.scss/
+/src/styles/_accesibility.scss\
+/src/styles/_chatbox.scss\
+/src/styles/_colors.scss\
+/src/styles/_layout.scss\
+/src/styles/_mixins.scss\
+/src/styles/_reset.scss\
+/src/styles/_typos.scss
 
 
 /ressources (files received)

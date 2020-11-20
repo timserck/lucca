@@ -42,7 +42,7 @@ src/build/bundle.js\
 /src/styles/_layout.scss/\
 /src/styles/_mixins.scss/\
 /src/styles/_reset.scss/\
-/src/styles/_typos.scss/\
+/src/styles/_typos.scss/
 
 
 /ressources (files received)

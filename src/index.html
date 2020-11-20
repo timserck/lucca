@@ -50,12 +50,12 @@
                         </div>
                     </div>
                     </article>
-                </div>
-                <div class="container" ng-if="messageInput">
-                    <div class="container_wrapper container_wrapper--typing">
-                        <div class="typing" ng-class="{show:messageInput }">
-                            <img class="typing_img" ng-src="{{messageInput.img}}" alt="envoyer" />
-                            <p ng-class="messageInput.author == 'operator' ? 'typing_txt--user' : 'typing_txt--operator'" class="typing_txt" >{{messageInput.author}} écrit ...</p>
+                    <div class="container" ng-if="messageInput">
+                        <div class="container_wrapper container_wrapper--typing">
+                            <div class="typing" ng-class="{show:messageInput }">
+                                <img class="typing_img" ng-src="{{messageInput.img}}" alt="envoyer" />
+                                <p ng-class="messageInput.author == 'operator' ? 'typing_txt--user' : 'typing_txt--operator'" class="typing_txt" >{{messageInput.author}} écrit ...</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
             <div class="footer_wrapper">
                 <form  class="send" ng-submit="sendMessage()">
                     <label class="hidden" for="submit">Message à envoyer</label>
-                    <input name="message" id="submit" tabindex="3" class="send_input outline" placeholder="Envoyer un message" ng-model="currentMessage" ng-change="updateInput()">
+                    <input name="message" id="submit" tabindex="2" class="send_input outline" placeholder="Envoyer un message" ng-model="currentMessage" ng-change="updateInput()">
                     <button class="send_submit outline" ><span class="hidden">Envoyé</span>
                         <svg class="send_submit__icon">
                             <use xlink:href="#send" />

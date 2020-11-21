@@ -16,7 +16,7 @@ simple chat app with AngularJs and webpack
 - always show the last message (srcoll fct)
 - when enter key is press the message is send
 
-NB: for each scss files i put link to article if you want more explenation
+NB: for each scss files i put link to article if you want more explanation
 
 # How to install
 
